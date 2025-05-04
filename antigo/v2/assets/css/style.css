@@ -1,0 +1,83 @@
+/* Estilos gerais */
+body {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.ui.container {
+    margin-top: 20px;
+}
+
+/* Estilos para o card de login */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+/* Ajustes para tabelas */
+.ui.table {
+    margin-top: 20px;
+}
+
+/* Estilos para status de motoboy */
+.status-ativo {
+    color: green;
+    font-weight: bold;
+}
+
+.status-inativo {
+    color: red;
+    font-style: italic;
+}
+
+/* Estilos para cabeçalho de página */
+.page-header {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Ajustes para botões de ação */
+.action-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+    .ui.table {
+        font-size: 0.85em;
+    }
+    
+    .ui.button {
+        padding: 0.7em 1em;
+    }
+    
+    .ui.grid {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+/* Destaque para movimentos pendentes */
+.movimento-pendente {
+    background-color: #fff8db !important;
+}
+
+/* Estilos para dashboards */
+.dashboard-stats {
+    margin-bottom: 30px;
+}
+
+.dashboard-stats .statistic {
+    margin-bottom: 15px;
+}
+
+/* Ajustes para notificações */
+.ui.floating.message {
+    position: fixed;
+    z-index: 1000;
+    top: 20px;
+    right: 20px;
+    max-width: 300px;
+} 
